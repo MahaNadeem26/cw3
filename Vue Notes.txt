@@ -1,0 +1,15 @@
+- A .vue file is a custom file format that uses HTML-like syntax to describe a portion of the UI
+- A vue file consists of a template, script, and style (language blocks)
+- So in SFC's, we are essentially separating these language blocks into individual files
+- HTML stores the view.
+- The script block is where the logic and functionality of the app is maintained(JS).
+- The CSS is the style section.
+- The browser doesn't know what .vue file is, so webpack with the view loader is going to parse this file, extract the 3 blocks, pipe them through other loaders if necessary and finally assemble them back into a format that browsers understand.
+- A .vue file is called a SFC, and the folders are called components because they can contain one or more components.
+- Props are custom attributes you can register on a component.
+- Any value can be passed to any prop, we can access the value on the component instance.
+- Components are reusable Vue instances with custom HTML elements, that's why we use them.
+- Slots are reserved space offered by vuejs to display content passed down from one component to another.
+- Slots are reserved for html templates.
+- 
+
